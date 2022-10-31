@@ -1,0 +1,44 @@
+                /* Estilos */
+
+body{
+    background-color: blanchedalmond;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#titulo{
+    font-size: 60px;
+}
+
+
+
+#boton1{
+    background-attachment: fixed;
+    background-color:indianred;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+select {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#amount{
+    margin-left: 10px ;
+    font-size: 18px;
+}
+#boton2{
+    font-size: 18px;
+    background-attachment: fixed;
+    background-color:green;
+}
+
+p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+

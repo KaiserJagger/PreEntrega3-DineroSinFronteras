@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Dinero sin fronteras</h1><br>
+    <form id="formulario">
+        <h3> Ingrese a su cuenta (opcional)</h3><br>
+        <input type="text" name="name" placeholder="Nombre">
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Contraseña">
+        <button id="boton1" type='submit'>Registrarme</button><br><br>
+    </form>
+
+    <h3>Seleccione pais a mandar</h3>
+    <select id="selectCountrys">
+        <option value="">Seleccione un pais</option> 
+        <!-- contruimos el select en js -->
+    </select>
+    
+    <select id="tipo_conversion"> 
+        <option value="">Seleccione moneda</option>
+         <!-- contruimos el select en js -->
+    </select>
+
+    <form id="conversion">
+        <input type="number" id="amount" placeholder="Monto" autocomplete="off">
+        <button id="boton2" type="submit">Convertir</button>
+    </form>
+
+    <p id="detalle_conversion"></p>
+    
+ 
+    <script src="PreEntrega3.js"></script>
+   <!-- <script src="pruebas.js"></script> -->
+</body>
+</html>
